@@ -1,16 +1,29 @@
-.App {
-  text-align: center;
-}
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.q{
+  display: flex;
+  flex-direction: column;
+  color: red;
+  font-weight: bolder;
+}
+.p{
+  margin-left: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+body{
+  background-color:gray;
 }
 
 .App-header {
